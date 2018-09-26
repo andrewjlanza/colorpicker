@@ -1,0 +1,135 @@
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  border: 1px solid #404e4d;
+  margin: 20px auto 0 auto;
+  background-color: #5f0fb9;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #404e4d;
+  font-size: 4rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+  line-height: 30px;
+  color: #404e4d;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+p {
+  padding-left: 10px;
+  color: white;
+}
+
+input {
+  width: 300px;
+}
+
+.values {
+  padding-top: 50px;
+  color: #404e4d;
+}
+
+.color-window {
+  border: 10px solid #404e4d;
+  height: 125px;
+  width: 100px;
+  margin: auto 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: silver;
+  background-image: radial-gradient(
+      circle at 100% 150%,
+      silver 24%,
+      white 25%,
+      white 28%,
+      silver 29%,
+      silver 36%,
+      white 36%,
+      white 40%,
+      transparent 40%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 0 150%,
+      silver 24%,
+      white 25%,
+      white 28%,
+      silver 29%,
+      silver 36%,
+      white 36%,
+      white 40%,
+      transparent 40%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      white 10%,
+      silver 11%,
+      silver 23%,
+      white 24%,
+      white 30%,
+      silver 31%,
+      silver 43%,
+      white 44%,
+      white 50%,
+      silver 51%,
+      silver 63%,
+      white 64%,
+      white 71%,
+      transparent 71%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 100% 50%,
+      white 5%,
+      silver 6%,
+      silver 15%,
+      white 16%,
+      white 20%,
+      silver 21%,
+      silver 30%,
+      white 31%,
+      white 35%,
+      silver 36%,
+      silver 45%,
+      white 46%,
+      white 49%,
+      transparent 50%,
+      transparent
+    ),
+    radial-gradient(
+      circle at 0 50%,
+      white 5%,
+      silver 6%,
+      silver 15%,
+      white 16%,
+      white 20%,
+      silver 21%,
+      silver 30%,
+      white 31%,
+      white 35%,
+      silver 36%,
+      silver 45%,
+      white 46%,
+      white 49%,
+      transparent 50%,
+      transparent
+    );
+  background-size: 100px 50px;
+}
