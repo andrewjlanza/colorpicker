@@ -7,9 +7,9 @@ class App extends Component {
     super(props)
 
     this.state = {
-      hueValue: 182,
-      saturationValue: 99,
-      lightnessValue: 48
+      hueValue: 76,
+      saturationValue: 29,
+      lightnessValue: 50
     }
   }
 
@@ -51,7 +51,7 @@ class App extends Component {
           <h1>Color Picker!</h1>
         </header>
 
-        <main className="all-content">
+        <main>
           <aside>
             <div className="values">
               <p>
